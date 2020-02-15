@@ -7,6 +7,6 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: nest-train
+      POSTGRES_DB: nesttrain
     volumes:
       - ./pgdata:/var/lib/postgresql/data

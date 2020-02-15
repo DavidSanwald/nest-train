@@ -10,7 +10,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
     port: 5432,
     username: 'postgres',
     password: 'postgres',
-    database: 'nest-train',
+    database: 'nesttrain',
     synchronize: true,
   }),],
   controllers: [AppController],
